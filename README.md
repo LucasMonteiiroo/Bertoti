@@ -8,3 +8,13 @@ Tecnologias utilizadas.
 - HTML
 - CSS
 - JavaScript
+
+
+
+![slide1](https://github.com/LucasMonteiiroo/Bertoti/blob/7e35769b676a541e3db56b7f6a89c007c0f0cd43/ProjetoAPI/API/API/labbd1.PNG)
+
+
+![slide1](https://github.com/LucasMonteiiroo/Bertoti/blob/7e35769b676a541e3db56b7f6a89c007c0f0cd43/ProjetoAPI/API/API/labbd1.PNG)
+
+
+![slide1](https://github.com/LucasMonteiiroo/Bertoti/blob/7e35769b676a541e3db56b7f6a89c007c0f0cd43/ProjetoAPI/API/API/labbd1.PNG)
