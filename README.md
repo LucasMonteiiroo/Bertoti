@@ -5,6 +5,6 @@ O projeto consiste em mostrar o consumo de uma API REST, utilizei uma busca de e
 
 Tecnologias utilizadas.
 
-- HTML5
+- HTML
 - CSS
 - JavaScript
