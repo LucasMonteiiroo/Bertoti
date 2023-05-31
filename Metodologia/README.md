@@ -6,10 +6,6 @@ Olá, é um prazer recebe-lo em meu portifólio. Sou o Lucas Rodrigues, graduand
 
 Aqui, contará com uma descrição sobre os meus projetos semestrais e como atuei em cada um, durante a minha formação. 
 
-**Empresa parceira**
-
-IACIT soluções tecnológicas S.A.
-
 # Descrição do Projeto 
 
 **Empresa parceira**
