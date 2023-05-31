@@ -2,9 +2,6 @@
 
 **Introdução**
 
-![image](https://github.com/LucasMonteiiroo/Bertoti/assets/65603418/c362e4f0-f832-4e97-8850-3dba57657ad8)
-
-
 Olá, é um prazer recebe-lo em meu portifólio. Sou o Lucas Rodrigues, graduando em Banco de Dados pela FATEC - Prof. Jessen Vidal.
 
 Aqui, contará com uma descrição sobre os meus projetos semestrais e como atuei em cada um, durante a minha formação. 
