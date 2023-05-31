@@ -6,7 +6,7 @@ Olá, é um prazer recebe-lo em meu portifólio. Sou o Lucas Rodrigues, graduand
 
 Aqui, contará com uma descrição sobre os meus projetos semestrais e como atuei em cada um, durante a minha formação. 
 
-# Descrição do Projeto 
+## Descrição do Projeto 
 
 **Empresa parceira**
 
@@ -18,7 +18,7 @@ Foi proposto um desafio de desenvolver um sistema que possa importar dados meteo
 
 * Requisitos não funcionais exigidos: Sistema Web, linguagem java, banco de dados relacional e documentações.
 
-## Tecnologias utilizadas ## 💻
+## Tecnologias utilizadas 💻
 
 Para criar a interface gráfica da aplicação, foram combinadas as linguagens de marcação HTML e CSS com a linguagem de programação JavaScript. O HTML é responsável pela estrutura básica da página da web, enquanto o CSS define o estilo visual e a aparência da página. Já o JavaScript é utilizado para adicionar interatividade à página, permitindo que os usuários realizem ações e que os dados sejam exibidos e atualizados dinamicamente. Ao utilizar o HTML, CSS e JavaScript em conjunto, foi possível desenvolver uma interface amigável e intuitiva para os usuários da aplicação. Isso permite que eles visualizem os dados meteorológicos e gerem relatórios de forma fácil e eficiente. Além disso, a aplicação fez uso da biblioteca de JavaScript chamada Charts, que possibilitou a apresentação dos dados em forma de gráficos de maneira adequada.
 
