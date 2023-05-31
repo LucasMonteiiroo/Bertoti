@@ -31,3 +31,6 @@ Para criar a interface gráfica da aplicação, foram combinadas as linguagens d
 
 Para desenvolver o back-end da aplicação, foi utilizada a linguagem Java em conjunto com o framework Spring Boot. O Spring Boot é uma estrutura que agiliza a criação de aplicativos web em Java, oferecendo um conjunto de ferramentas e bibliotecas que facilitam o desenvolvimento. Com o uso do Java e do Spring Boot, foi possível criar o back-end da aplicação de forma eficiente, aproveitando as vantagens proporcionadas por essa combinação de tecnologias.
 
+**PostgresSQL**
+
+Para armazenar todos os dados meteorológicos, dados de estações e regiões, foi utilizado o banco de dados PostgreSQL, que é um banco de dados relacional. O PostgreSQL foi escolhido devido à sua versatilidade, interface simplificada e funcionalidades intuitivas, o que facilitou o uso e o gerenciamento do banco de dados. Sua eficiência e desempenho contribuíram para o armazenamento tranquilo dos milhões de dados meteorológicos importados, garantindo um bom desempenho do sistema.
