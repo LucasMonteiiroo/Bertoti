@@ -11,6 +11,7 @@ Aqui, contará com uma descrição sobre os meus projetos semestrais e como atue
 **Empresa parceira**
 
 **IACIT soluções tecnológicas S.A.**
+
 ![image](https://github.com/LucasMonteiiroo/Bertoti/assets/65603418/f5b6e3b7-b3d5-41f5-9747-7b3c42605942)
 
 
