@@ -37,4 +37,58 @@ Foi proposto um desafio de desenvolver um sistema que possa importar dados meteo
 
 ## Contribuições pessoais 🎓
 
- Durante o projeto, trabalhando como PO, pude aprimorar minhas habilidades nessa função, incluindo a capacidade de gerenciar requisitos, priorizar tarefas, colaborar com a equipe de desenvolvimento e garantir a entrega de um produto de qualidade.
+ Durante o projeto, trabalhando como PO, pude aprimorar minhas habilidades nessa função. Em um ambiente ágil e colaborativo, a metodologia Scrum desempenha um papel fundamental na gestão de projetos. O Product Owner (PO) é responsável por definir as prioridades e guiar a equipe para alcançar os objetivos do produto. Neste contexto, a priorização de tarefas é uma atividade crucial para garantir o sucesso do projeto.
+ 
+ Abaixo é possivel visualizar alguns tópicos que do que precisiei trabalhar com o time. 
+
+ <details>
+ 
+<summary>Compreensão das necessidades do cliente</summary>
+ <br>
+ O primeiro passo para o PO é entender profundamente as necessidades do cliente e os objetivos do produto. Isso envolve a comunicação efetiva com os stakeholders e a coleta de feedback contínuo. Ao ter uma visão clara das expectativas, o PO pode definir prioridades com base na entrega de valor para o cliente.
+ 
+ </details>
+ 
+ <details>
+ <summary> Definição do Product Backlog </summary>
+ <br>
+ O Product Backlog é uma lista ordenada de itens que representam as funcionalidades, requisitos e melhorias do produto. O PO, em colaboração com a equipe, é responsável por criar e manter esse backlog. A priorização das tarefas é feita atribuindo um valor de negócio a cada item, considerando seu impacto no sucesso do produto
+ 
+ </details>
+ 
+  <details>
+ <summary> Reuniões de Planejamento </summary>
+ <br>
+ Durante as reuniões de planejamento do Sprint, o PO trabalha em conjunto com a equipe para definir as tarefas que serão incluídas no Sprint Backlog. Com base na priorização do Product Backlog, o PO seleciona as tarefas mais relevantes para o Sprint atual. A equipe discute os detalhes e estima o esforço necessário para concluir cada tarefa
+ 
+ </details>
+   
+   <details>
+ <summary> Colaboração contínua </summary>
+ <br>
+ Durante o Sprint, o PO mantém uma comunicação aberta com a equipe. Ele fornece esclarecimentos sobre os requisitos, responde a perguntas e ajusta a prioridade, se necessário. A colaboração contínua é essencial para garantir que as tarefas estejam alinhadas com as expectativas e que a equipe possa trabalhar de forma eficiente.
+ 
+ </details>
+ 
+   <details>
+ <summary> Adpatação ao longo do tempo </summary>
+ <br>
+A priorização de tarefas é um processo dinâmico. À medida que o projeto evolui, novas informações e feedback podem surgir, o que pode exigir ajustes nas prioridades. O PO deve estar aberto a essas mudanças e ser capaz de adaptar-se às necessidades em constante mudança.
+ 
+ </details>
+ 
+ Colaborei também com a implementação da regra de negocio a nossa modelagem de dados, onde demos o inicio do banco e estruturamos o projeto. 
+ 
+   <details>
+ <summary> Modelagem </summary>
+ <br>
+Nesse caso, a cidade em si serve como a estação que desempenha o papel de coordenar e distribuir as informações entre as diversas entidades envolvidas. Essa estrutura permite que as entidades dependam da cidade/estação para acessar e compartilhar as informações necessárias para suas atividades. A cidade/estação atua como um ponto central de referência, garantindo a integridade e consistência das informações, e facilitando a colaboração eficiente entre as partes envolvidas. Essa abordagem permite uma gestão mais eficaz e uma melhor organização dos dados, contribuindo para o sucesso e eficiência geral das operações.
+ <br>
+ <img src="caminho_da_imagem.png" alt="Texto alternativo" width="300" height="200">
+
+ </details>
+ 
+ 
+ 
+ 
+ 
