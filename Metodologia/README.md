@@ -35,6 +35,6 @@ Para desenvolver o back-end da aplicação, foi utilizada a linguagem Java em co
 
 Para armazenar todos os dados meteorológicos, dados de estações e regiões, foi utilizado o banco de dados PostgreSQL, que é um banco de dados relacional. O PostgreSQL foi escolhido devido à sua versatilidade, interface simplificada e funcionalidades intuitivas, o que facilitou o uso e o gerenciamento do banco de dados. Sua eficiência e desempenho contribuíram para o armazenamento tranquilo dos milhões de dados meteorológicos importados, garantindo um bom desempenho do sistema.
 
-## Contribuições pessoais ## 🎓
+## Contribuições pessoais 🎓
 
  Durante o projeto, trabalhando como PO, pude aprimorar minhas habilidades nessa função, incluindo a capacidade de gerenciar requisitos, priorizar tarefas, colaborar com a equipe de desenvolvimento e garantir a entrega de um produto de qualidade.
