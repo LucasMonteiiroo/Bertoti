@@ -9,3 +9,7 @@
 
 * A classe Test possui o método main, que é o ponto de entrada do programa. Ele cria uma instância de ConcreteSubject, instâncias de ConcreteObserverA e ConcreteObserverB, anexa os observadores ao sujeito, atualiza o valor do sujeito e, em seguida, remova um dos observadores e atualiza novamente o valor do sujeito.
 
+<div align="center">
+  <img src="https://github.com/LucasMonteiiroo/Bertoti/blob/main/PadroesDeProjetos/observer/Observerr.png">
+ </div> 
+
