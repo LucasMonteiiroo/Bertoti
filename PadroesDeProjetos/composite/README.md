@@ -8,3 +8,7 @@
 
 * A classe Test é a classe de teste que contém o método main. Dentro desse método, são criadas instâncias de Leaf e Composite, e são realizadas operações nos composites e folhas para demonstrar o uso do padrão Composite.
 
+
+<div align="center">
+  <img src="https://github.com/LucasMonteiiroo/Bertoti/blob/main/PadroesDeProjetos/composite/Composite.png">
+ </div> 
