@@ -7,5 +7,5 @@
 * A classe Test é a classe de teste que contém o método main. Dentro desse método, é obtida a instância do Singleton chamando o método getInstance() e, em seguida, é chamado o método doSomething() para demonstrar o uso da instância singleton.
 
 <div align="center">
-  <img src="https://github.com/LucasMonteiiroo/Bertoti/blob/main/PadroesDeProjetos/Singleton/Singleton.png">
+  <img src="https://github.com/LucasMonteiiroo/Bertoti/blob/main/PadroesDeProjetos/Singleton/Singletonn.png">
 </div>  
