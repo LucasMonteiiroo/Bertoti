@@ -12,5 +12,5 @@
 * CalculadoraDeTaxas: Classe responsável por calcular as taxas com base no tipo de taxa selecionado. Possui o método calcular(orcamento: Orcamento, tipoTaxa: TipoTaxa): BigDecimal que recebe o orçamento
 
 <div align="center">
-  <img src="https://github.com/LucasMonteiiroo/Bertoti/blob/main/PadroesDeProjetos/Padr%C3%A3oStrategy/Strategyy.png">
+  <img src="https://github.com/LucasMonteiiroo/Bertoti/blob/main/PadroesDeProjetos/Padr%C3%A3oStrategy/Sty.png">
  </div> 
