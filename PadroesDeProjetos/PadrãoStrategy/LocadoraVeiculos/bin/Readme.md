@@ -1,5 +1,5 @@
 
-# No diagrama acima, temos as seguintes classes:
+# No diagrama, temos as seguintes classes:
 
 * Desconto: A classe abstrata base para todos os descontos. Ela possui um atributo proximo do tipo Desconto para encadear descontos em uma sequência. A classe também define o método abstrato calcular(orcamento: Orcamento): BigDecimal que será implementado pelas subclasses concretas.
 
