@@ -6,7 +6,7 @@ Olá, é um prazer recebe-lo em meu portifólio. Sou o Lucas Rodrigues, graduand
 
 Aqui, contará com uma descrição sobre os meus projetos semestrais e como atuei em cada um, durante a minha formação. 
 
-## Descrição do Projeto 
+## Projeto 1
 
 **Empresa parceira**
 
