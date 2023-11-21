@@ -5,12 +5,155 @@
 Olá, é um prazer recebe-lo em meu portifólio. Sou o Lucas Rodrigues, graduando em Banco de Dados pela FATEC - Prof. Jessen Vidal.
 
 Aqui, contará com uma descrição sobre os meus projetos semestrais e como atuei em cada um, durante a minha formação. 
-
 ## Projeto 1
+
+## PLIINB
+
+Assistente Pessoal Virtual vinculado à API Google Calendar, no qual o usuário usará comandos de voz para acessar a Agenda Google através da API, executar os comandos de consultar, editar e visualizar compromissos da agenda. Além de consumir API do sexto semestre.
+
+**Lista de comandos possíveis:**
+
+-   Consultar agenda;
+-   Ler compromissos do dia;
+-   Incluir compromisso;
+-   Editar compromisso;
+-   Excluir compromisso;
+-   Fechar agenda.
+
+-   ## Tecnologias utilizadas 🔍
+
+  **Python 3.6 (com Flask)** 🛠️
+* Ao optar por empregar o Flask no desenvolvimento da interface web da assistente virtual, os usuários serão beneficiados por uma interação intuitiva e acessível. Adicionalmente, o framework proporciona a flexibilidade essencial para ampliar e aprimorar as funcionalidades da assistente ao longo do tempo, adaptando-se às mudanças e requisitos que possam surgir durante a evolução do projeto. Essa abordagem oferece uma base sólida para aperfeiçoar a experiência do usuário e expandir as capacidades da assistente conforme as demandas do contexto.
+
+**Spyder (IDE)** 👾
+* O Spyder se destaca como uma ferramenta essencial para a criação da assistente virtual. Como uma IDE dedicada ao Python, oferece um ambiente familiar e intuitivo para os desenvolvedores. Sua interface amigável simplifica o processo de escrita, oferecendo não apenas uma interface amigável, mas também ferramentas poderosas e integradas que facilitam desde a manipulação de dados até a depuração e personalização do código Python.
+    
+**Agenda do Google (API Google Calendar)** 💻 
+* A integração da Agenda do Google, por meio da API Google Calendar, desempenha um papel fundamental no projeto da assistente virtual. Essa integração permite que a assistente acesse, gerencie e utilize informações diretamente a partir do Google Calendar.
+
+* A assistente pode agendar compromissos, criar lembretes, verificar disponibilidade de horários e até mesmo realizar confirmações ou cancelamentos de eventos na agenda dos usuários. Isso se traduz em uma experiência mais conveniente e personalizada, onde a assistente pode fornecer informações relevantes sobre eventos agendados, lembretes de compromissos, e até mesmo automatizar algumas interações relacionadas à agenda.
+    
+**Trello** 📊 
+* A utilização do trello serviu para dividir as tarefas em cartões, que podem representar desde funcionalidades específicas da assistente até atividades de desenvolvimento, testes, e revisões
+
+ **StackEdit** 📁
+ * A funcionalidade de colaboração em tempo real do StackEdit é valiosa para equipes distribuídas ou que trabalham remotamente. Vários membros podem editar um documento simultaneamente, visualizando as alterações em tempo real, o que facilita a revisão, o compartilhamento de ideias e a tomada de decisões colaborativas.
+
+  ## Contribuições pessoais 🎓
+
+ <details>
+ 
+<summary>Função autenticacao_google()</summary>
+<br>
+Esta função verifica a existência do arquivo token.pickle, que contém as credenciais de acesso. Caso as credenciais não existam, sejam inválidas ou estejam expiradas, o código inicia um processo de renovação, verificando se há um token de atualização disponível (refresh_token) para as credenciais expiradas. Em caso positivo, as credenciais são renovadas. Caso contrário, o código inicia um novo fluxo de autenticação utilizando o arquivo credentials.json. Ao finalizar esses procedimentos, a função retorna um serviço autenticado, pronto para interagir com a API do Google Calendar de forma segura e autorizada.
+
+```python
+def autenticacao_google():
+    creds = None
+    if os.path.exists('token.pickle'):
+        with open('token.pickle', 'rb') as token:
+            creds = pickle.load(token)
+
+    if not creds or not creds.valid:
+        if creds and creds.expired and creds.refresh_token:
+            creds.refresh(Request())
+        else:
+            flow = InstalledAppFlow.from_client_secrets_file(
+                'credentials.json', SCOPES)
+            creds = flow.run_local_server(port=0)
+
+        with open('token.pickle', 'wb') as token:
+            pickle.dump(creds, token)
+
+    service = build('calendar', 'v3', credentials=creds)
+    return service
+    
+ ```
+ </details>
+
+<details>
+<summary>função eventos(day, service)</summary>
+<br>
+O código da função eventos(day, service) em Python é responsável por listar os eventos do Google Calendar para um determinado dia. Ele começa combinando a data inicial e final do dia especificado para criar um intervalo de tempo para a busca de eventos. Em seguida, utiliza o serviço da API do Google Calendar para buscar os eventos nesse intervalo de tempo, utilizando os parâmetros de tempo timeMin e timeMax.
+
+Se não existirem eventos para o dia especificado, o código imprime uma mensagem informando que não há compromissos e espera por uma entrada para continuar.
+
+Caso existam eventos, o código limpa a tela, lista o intervalo de tempo e itera sobre cada evento encontrado. Para cada evento, imprime o título e a data/horário de início. Além disso, chama a função editarEventos(events, service) para possibilitar a edição dos eventos listados. Esta função auxiliar permite a manipulação dos eventos presentes no Google Calendar.
+ 
+```python
+def eventos(day, service):
+    date = datetime.datetime.combine(day, datetime.datetime.min.time())
+    end_date = datetime.datetime.combine(day, datetime.datetime.max.time())
+    utc = pytz.UTC
+    date_utc = date.astimezone(utc)
+    end_date_utc = end_date.astimezone(utc)
+    
+    events_result = service.events().list(calendarId='primary', 
+                                          timeMin=date_utc.isoformat(),
+                                          timeMax=end_date_utc.isoformat(),
+                                          singleEvents=True,
+                                          orderBy='startTime').execute()
+    events = events_result.get('items', [])
+
+    if not events:
+        print('Não existem compromissos neste dia.')
+        input("Pressione uma tecla para continuar...")
+    else:
+        clear()
+        lin()
+        print("Listando Eventos ")
+        print("Inicio:", date)
+        print("Fim:", end_date)
+        for event in events:
+            lin()
+            print("Titulo:"+ event['summary'])
+            print("Data e Horário: "+ event['start'].get('dateTime'))
+            lin()
+            print("")
+
+        editarEventos(events, service)
+
+```
+ </details>
+
+****
+
+## Projeto 2
 
 **Empresa parceira**
 
-**IACIT soluções tecnológicas S.A.**
+## TecSUS
+
+A TecSUS realiza a gestão de contas de utilidades (água e energia) dos seus clientes. Todos os meses milhares de contas devem ser digitadas manualmente no sistema para a realização de análises de contratos e análises de consumo. Desta forma, para facilitar a digitação das contas precisamos de um sistema que permita o cadastro de cada conta de forma rápida e ágil, sem a necessidade de utilização do mouse, apenas por comandos do teclado.
+
+## Tecnologias utilizadas 🔍
+
+**Eclipse**
+* No contexto específico da TecSUS, onde é necessário criar um sistema para facilitar a digitação das contas de utilidades (água e energia) dos clientes, o Eclipse pode ser uma excelente escolha para desenvolver essa aplicação. Ele permite criar uma interface amigável e eficiente, adaptada para facilitar o cadastro rápido e ágil das contas, priorizando a entrada de dados por meio de comandos do teclado, sem depender do uso do mouse.
+
+**MySQL**
+* O MySQL é um sistema de gerenciamento de banco de dados relacional muito popular, conhecido por ser de código aberto, confiável e amplamente utilizado em muitas aplicações e sistemas em todo o mundo.
+
+* No contexto da TecSUS, onde é necessário gerenciar e armazenar dados relacionados às contas de utilidades dos clientes (como dados de consumo de água e energia), o MySQL pode desempenhar um papel fundamental como um banco de dados confiável.
+
+**BrModelo 2.0**
+* No contexto da TecSUS, onde é essencial gerenciar e organizar os dados das contas de utilidades dos clientes, o BRModelo pode ser empregado para criar um modelo ER representando a estrutura das informações necessárias para o armazenamento no banco de dados, como detalhes das contas, informações de consumo, informações dos clientes, entre outros.
+
+## Contribuições pessoais 🎓
+<details>
+<summary>função eventos(day, service)</summary>
+<br>
+
+</details>
+
+****
+
+
+## Projeto 3
+
+**Empresa parceira**
+
+## IACIT soluções tecnológicas S.A.
 
 ![image](https://github.com/LucasMonteiiroo/Bertoti/assets/65603418/f5b6e3b7-b3d5-41f5-9747-7b3c42605942)
 
