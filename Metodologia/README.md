@@ -233,6 +233,34 @@ Nesse caso, a cidade em si serve como a estação que desempenha o papel de coor
  </details>
  
  
- 
+ ## Projeto 4
+
+**Empresa parceira**
+
+## Embraer 
+Atualmente, muitos pilotos trabalham como "freelancers" e não operam apenas uma aeronave/frota, o que dificulta o reconhecimento de determinados equipamentos e versões de software instalados na aeronave. Além disso, o piloto nem sempre tem acesso rápido a todos os manuais e documentos da aeronave, o que dificulta o seu conhecimento sobre a aeronave e as suas capacidades.
+
+**Requisitos Funcionais**
+* Utilização de APIs para futura integração com sistemas de plataformas móveis
+- Acesso à base de dados de clientes (utilizador, password e equipamento)
+- Os utilizadores devem ter perfis diferentes (administrador, edição e consulta)
+- Possibilidade de aplicação de filtros de seleção (por categoria de artigo)
+- Visualização de ficheiros PDF na App e possibilidade de exportação no mesmo formato, com registo da data de geração do ficheiro e do utilizador.
+
+## Tecnologias utilizadas 🔍
+
+**Java e Spring**
+O back-end da aplicação foi desenvolvido em Java juntamente com o framework Spring, onde foi realizada a lógica das regras de negócio para determinação de quais itens eram considerados instalados, instaláveis ou não instaláveis de acordo com os chassis que fossem pesquisados. Através do Spring Data foi possível realizar consultas de forma mais eficiente no banco de dados para tratamento das lógicas e condições no back-end.
+
+**Oracle Autonomous Database**
+Para armazenamento dos dados, foi utilizado o Oracle Autonomous Database, um banco relacional em nuvem. Foi escolhido devido a possibilidade de consultar o banco através da internet, proporcionando uma melhor acessibilidade, praticidade e flexibilidade. Além do mais, também proporcionou maior segurança, tanto no controle de acesso ao banco, quanto na consistência dos dados, pois eram gerados backups automáticos que protegiam contra a perda de dados e facilitavam a recuperação em caso de falhas de operação.
+
+
+
+
+
+
+
+
  
  
