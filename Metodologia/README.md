@@ -123,8 +123,9 @@ def eventos(day, service):
 **Empresa parceira**
 
 ## TecSUS
-![image](https://github.com/LucasMonteiiroo/Bertoti/blob/main/Metodologia/Logos/logo_tecsus_horizontal.png)
-
+<p align="center">
+<img src="https://github.com/LucasMonteiiroo/Bertoti/blob/main/Metodologia/Logos/logo_tecsus_horizontal.png" width="260" height="80">
+</p>
 A TecSUS realiza a gestão de contas de utilidades (água e energia) dos seus clientes. Todos os meses milhares de contas devem ser digitadas manualmente no sistema para a realização de análises de contratos e análises de consumo. Desta forma, para facilitar a digitação das contas precisamos de um sistema que permita o cadastro de cada conta de forma rápida e ágil, sem a necessidade de utilização do mouse, apenas por comandos do teclado.
 
 ## Tecnologias utilizadas 🔍
@@ -155,10 +156,10 @@ A TecSUS realiza a gestão de contas de utilidades (água e energia) dos seus cl
 **Empresa parceira**
 
 ## IACIT soluções tecnológicas S.A.
+<p align="center">
+<img src="https://github.com/LucasMonteiiroo/Bertoti/assets/65603418/f5b6e3b7-b3d5-41f5-9747-7b3c42605942" width="200" height="80">
 
-![image](https://github.com/LucasMonteiiroo/Bertoti/assets/65603418/f5b6e3b7-b3d5-41f5-9747-7b3c42605942)
-
-
+</p>
 Foi proposto um desafio de desenvolver um sistema que possa importar dados meteorológicos de arquivos CSV fornecidos pela empresa IACIT. O sistema deve armazenar esses dados em um banco de dados e permitir a geração de relatórios solicitados pelos clientes da empresa. A aplicação web deve ser capaz de filtrar os registros com base em regiões, estados, estações, tipos de dados e intervalos de datas. Além disso, ela deve exibir as informações em forma de gráficos e cards. Por fim, o sistema deve permitir a geração de relatórios com base nas pesquisas realizadas pelos usuários.
 
 * Requisitos funcionais exigidos: Cadastro de estações, cadastro de estados e regiões, importação de dados e geração de relatórios.
@@ -250,10 +251,20 @@ Atualmente, muitos pilotos trabalham como "freelancers" e não operam apenas uma
 ## Tecnologias utilizadas 🔍
 
 **Java e Spring**
-O back-end da aplicação foi desenvolvido em Java juntamente com o framework Spring, onde foi realizada a lógica das regras de negócio para determinação de quais itens eram considerados instalados, instaláveis ou não instaláveis de acordo com os chassis que fossem pesquisados. Através do Spring Data foi possível realizar consultas de forma mais eficiente no banco de dados para tratamento das lógicas e condições no back-end.
+
+* O back-end da aplicação foi desenvolvido em Java juntamente com o framework Spring, onde foi realizada a lógica das regras de negócio para determinação de quais itens eram considerados instalados, instaláveis ou não instaláveis de acordo com os chassis que fossem pesquisados. Através do Spring Data foi possível realizar consultas de forma mais eficiente no banco de dados para tratamento das lógicas e condições no back-end.
 
 **Oracle Autonomous Database**
-Para armazenamento dos dados, foi utilizado o Oracle Autonomous Database, um banco relacional em nuvem. Foi escolhido devido a possibilidade de consultar o banco através da internet, proporcionando uma melhor acessibilidade, praticidade e flexibilidade. Além do mais, também proporcionou maior segurança, tanto no controle de acesso ao banco, quanto na consistência dos dados, pois eram gerados backups automáticos que protegiam contra a perda de dados e facilitavam a recuperação em caso de falhas de operação.
+
+* Para armazenamento dos dados, foi utilizado o Oracle Autonomous Database, um banco relacional em nuvem. Foi escolhido devido a possibilidade de consultar o banco através da internet, proporcionando uma melhor acessibilidade, praticidade e flexibilidade. Além do mais, também proporcionou maior segurança, tanto no controle de acesso ao banco, quanto na consistência dos dados, pois eram gerados backups automáticos que protegiam contra a perda de dados e facilitavam a recuperação em caso de falhas de operação.
+
+**Vue.js**
+
+* A interface do usuário foi construída com Vue.js, um framework JavaScript que oferece uma arquitetura organizada através da criação de componentes reutilizáveis. Isso simplificou o desenvolvimento da plataforma, já que diversas partes visuais da interface compartilhavam semelhanças.
+
+**AWS**
+
+* Para hospedar a aplicação em um servidor, foi empregada uma instância da AWS, uma das principais provedoras de infraestrutura em nuvem para aplicações online. Utilizando a AWS, foi possível hospedar a aplicação na nuvem, possibilitando o acesso ao sistema através do endereço do servidor AWS. Isso viabilizou o acesso por diversos dispositivos, como smartphones, tablets e outros dispositivos com acesso à internet.
 
 
 
