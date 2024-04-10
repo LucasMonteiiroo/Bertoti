@@ -145,10 +145,19 @@ A TecSUS realiza a gestão de contas de utilidades (água e energia) dos seus cl
 <details>
 <summary>função eventos(day, service)</summary>
 <br>
+ 
+ ```python
+SELECT * FROM digicont.contaagua;SELECT `contaagua`.`ContaAguaConsumoM`,
+    `contaagua`.`ContaAguaValorTotal`,
+    `contaagua`.`ContaAguaMesConta`,
+    `contaagua`.`ContaAguaValorAgua`,
+    `contaagua`.`ContaAguaValorEsgoto`
+FROM `digicont`.`contaagua`;
 
-</details>
+```
 
-****
+
+***
 
 
 ## Projeto 3
@@ -239,6 +248,10 @@ Nesse caso, a cidade em si serve como a estação que desempenha o papel de coor
 **Empresa parceira**
 
 ## Embraer 
+<p align="center">
+<img src="https://github.com/LucasMonteiiroo/Bertoti/blob/main/Metodologia/Logos/embraer.png" width="220" height="100">
+
+</p>
 Atualmente, muitos pilotos trabalham como "freelancers" e não operam apenas uma aeronave/frota, o que dificulta o reconhecimento de determinados equipamentos e versões de software instalados na aeronave. Além disso, o piloto nem sempre tem acesso rápido a todos os manuais e documentos da aeronave, o que dificulta o seu conhecimento sobre a aeronave e as suas capacidades.
 
 **Requisitos Funcionais**
