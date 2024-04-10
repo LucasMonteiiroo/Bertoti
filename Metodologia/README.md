@@ -143,21 +143,129 @@ A TecSUS realiza a gestão de contas de utilidades (água e energia) dos seus cl
 
 ## Contribuições pessoais 🎓
 <details>
-<summary>função eventos(day, service)</summary>
+<summary> Conexão com o banco de dados </summary>
 <br>
- 
+ A classe ConexaoBD que é responsável por gerenciar conexões com um banco de dados MySQL em nosso projeto.
+
+ Essa classe fornece três principais funcionalidades:
+
+Conexão com o Banco de Dados: O método conexao() estabelece uma conexão com o banco de dados MySQL utilizando as informações fornecidas, como o URL de conexão, nome de usuário e senha. Ele utiliza o driver JDBC para se conectar ao banco de dados.
+
+Execução de Consultas SQL: O método executaSql(String sql) recebe uma consulta SQL como parâmetro e a executa no banco de dados. Ele cria um objeto Statement e executa a consulta, armazenando os resultados em um objeto ResultSet.
+
+Desconexão: O método desconecta() é responsável por fechar a conexão com o banco de dados quando ela não é mais necessária.
+
  ```python
-SELECT * FROM digicont.contaagua;SELECT `contaagua`.`ContaAguaConsumoM`,
-    `contaagua`.`ContaAguaValorTotal`,
-    `contaagua`.`ContaAguaMesConta`,
-    `contaagua`.`ContaAguaValorAgua`,
-    `contaagua`.`ContaAguaValorEsgoto`
-FROM `digicont`.`contaagua`;
+package modeloConnection;
+
+import java.sql.*;
+
+import javax.swing.JOptionPane;
+
+public class ConexaoBD {
+
+	private String driver = "DriverManager.getConnection";
+	private String caminho = "jdbc:mysql://localhost:3306/projetointegrador?&Timezone=true&serverTimezone=UTC";
+	private String usuario = "root";
+	private String senha = "Amor041612#";
+
+	public Connection con;
+	public Statement stm;
+	public ResultSet rs;
+
+	public void conexao() {
+		try {
+			System.setProperty("jdbc.Drivers", driver);
+			con = DriverManager.getConnection(caminho, usuario, senha);
+			//JOptionPane.showMessageDialog(null, "Conex�o Efetuada");
+
+		} catch
+
+		(SQLException e) {
+			JOptionPane.showMessageDialog(null, "Conex�o com Erro \n" + e);
+
+		}
+	}
+	
+	public void executaSql(String sql) {
+		try {
+			stm = con.createStatement(rs.TYPE_SCROLL_INSENSITIVE,rs.CONCUR_READ_ONLY);
+			rs = stm.executeQuery(sql);
+
+		} catch (SQLException e) {
+			JOptionPane.showMessageDialog(null, "Erro ExecutaSQL: \n " + e.getMessage());
+
+		}
+
+	}
+
+	public void desconecta() {
+
+		try {
+			con.close();
+			//JOptionPane.showMessageDialog(null, "Desconectado");
+
+		} catch (SQLException e) {
+			JOptionPane.showMessageDialog(null, "Erro ao fechar a conex�o" + e);
+
+		}
+	}
+
+	
+}
 
 ```
 </details>
+<details>
+<summary> Relatorio </summary>
+<br>
+Esta classe é responsável por criar e exibir uma janela de relatório em nossa aplicação utilizando o framework Swing.
 
-***
+A classe possui um método main que inicia a aplicação, criando uma instância da classe TelaRelatorio e tornando a janela visível. Além disso, no método initialize, configuramos a janela com o título "RELATÓRIO", dimensões de 960x720 pixels, cor de fundo branca e a ação de fechamento padrão ao clicar no botão de fechar.
+
+Essa classe é uma parte importante do nosso sistema, pois nos permite visualizar relatórios de forma clara e organizada.
+
+ ```python
+package DigiCont;
+
+import java.awt.EventQueue;
+import javax.swing.JFrame;
+import java.awt.Color;
+
+public class TelaRelatorio {
+
+	JFrame frmRelatrio;
+
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					TelaRelatorio window = new TelaRelatorio();
+					window.frmRelatrio.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	public TelaRelatorio() {
+		initialize();
+	}
+
+	private void initialize() {
+		frmRelatrio = new JFrame();
+		frmRelatrio.setTitle("RELATÓRIO");
+		frmRelatrio.getContentPane().setBackground(Color.WHITE);
+		frmRelatrio.setBounds(100, 100, 960, 720);
+		frmRelatrio.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frmRelatrio.setLocationRelativeTo(null);
+	}
+}
+
+
+```
+ </details>
 
 
 ## Projeto 3
@@ -231,11 +339,13 @@ A priorização de tarefas é um processo dinâmico. À medida que o projeto evo
  
  </details>
  
- Colaborei também com a implementação da regra de negocio a nossa modelagem de dados, onde demos o inicio do banco e estruturamos o projeto. 
+ 
  
    <details>
  <summary> Modelagem </summary>
  <br>
+Colaborei também com a implementação da regra de negocio a nossa modelagem de dados, onde demos o inicio do banco e estruturamos o projeto.    
+    
 Nesse caso, a cidade em si serve como a estação que desempenha o papel de coordenar e distribuir as informações entre as diversas entidades envolvidas. Essa estrutura permite que as entidades dependam da cidade/estação para acessar e compartilhar as informações necessárias para suas atividades. A cidade/estação atua como um ponto central de referência, garantindo a integridade e consistência das informações, e facilitando a colaboração eficiente entre as partes envolvidas. Essa abordagem permite uma gestão mais eficaz e uma melhor organização dos dados, contribuindo para o sucesso e eficiência geral das operações.
  <br>
  <img src="caminho_da_imagem.png" alt="Texto alternativo" width="300" height="200">
