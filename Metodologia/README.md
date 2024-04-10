@@ -155,7 +155,7 @@ SELECT * FROM digicont.contaagua;SELECT `contaagua`.`ContaAguaConsumoM`,
 FROM `digicont`.`contaagua`;
 
 ```
-
+</details>
 
 ***
 
