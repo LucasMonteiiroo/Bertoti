@@ -347,8 +347,9 @@ A priorização de tarefas é um processo dinâmico. À medida que o projeto evo
 Colaborei também com a implementação da regra de negocio a nossa modelagem de dados, onde demos o inicio do banco e estruturamos o projeto.    
     
 Nesse caso, a cidade em si serve como a estação que desempenha o papel de coordenar e distribuir as informações entre as diversas entidades envolvidas. Essa estrutura permite que as entidades dependam da cidade/estação para acessar e compartilhar as informações necessárias para suas atividades. A cidade/estação atua como um ponto central de referência, garantindo a integridade e consistência das informações, e facilitando a colaboração eficiente entre as partes envolvidas. Essa abordagem permite uma gestão mais eficaz e uma melhor organização dos dados, contribuindo para o sucesso e eficiência geral das operações.
+ 
  <br>
- <img src="caminho_da_imagem.png" alt="Texto alternativo" width="300" height="200">
+ <img src="https://github.com/LucasMonteiiroo/Bertoti/blob/main/Metodologia/Logos/modelagemIACIT.png" width="600" height="500">
 
  </details>
  
