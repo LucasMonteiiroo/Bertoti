@@ -5,6 +5,14 @@
 Olá, é um prazer recebe-lo em meu portifólio. Sou o Lucas Rodrigues, graduando em Banco de Dados pela FATEC - Prof. Jessen Vidal.
 
 Aqui, contará com uma descrição sobre os meus projetos semestrais e como atuei em cada um, durante a minha formação. 
+
+<p align="center">
+<img src="https://github.com/LucasMonteiiroo/Bertoti/blob/main/Metodologia/Logos/EU.jfif" width="300" height="300">
+</p>
+<p align="center">
+<a href="https://www.linkedin.com/in/lucas-monteiro-56585117b/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+</p>
+
 ## Projeto 1
 
 ## PLIINB
@@ -116,7 +124,26 @@ def eventos(day, service):
 ```
  </details>
 
-****
+ ## Aprendizados efetivos 🎓
+
+ HARD SKILLS
+
+ <details>
+ <summary> Linguagem Python </summary>
+ <br>
+
+</details>
+
+ SOFT SKILLS
+
+ <details>
+ <summary> Comunicação 
+ </summary>
+ <br>
+Com todas as aulas sendo ministradas remotamente, foi necessário aprimorar minha comunicação com os membros do grupo para facilitar a compreensão e colaboração entre todos os membros da equipe.
+</details>
+
+
 
 ## Projeto 2
 
@@ -268,6 +295,25 @@ public class TelaRelatorio {
  </details>
 
 
+ ## Aprendizados efetivos 🎓
+
+ HARD SKILLS
+
+ <details>
+ <summary> Linguagem Python </summary>
+ <br>
+
+</details>
+
+ SOFT SKILLS
+
+ <details>
+ <summary> Comunicação 
+ </summary>
+ <br>
+Com todas as aulas sendo ministradas remotamente, foi necessário aprimorar minha comunicação com os membros do grupo para facilitar a compreensão e colaboração entre todos os membros da equipe.
+</details>
+
 ## Projeto 3
 
 **Empresa parceira**
@@ -354,6 +400,25 @@ Nesse caso, a cidade em si serve como a estação que desempenha o papel de coor
  </details>
  
  
+ ## Aprendizados efetivos 🎓
+
+ HARD SKILLS
+
+ <details>
+ <summary> Linguagem Python </summary>
+ <br>
+
+</details>
+
+ SOFT SKILLS
+
+ <details>
+ <summary> Comunicação 
+ </summary>
+ <br>
+Com todas as aulas sendo ministradas remotamente, foi necessário aprimorar minha comunicação com os membros do grupo para facilitar a compreensão e colaboração entre todos os membros da equipe.
+</details>
+ 
  ## Projeto 4
 
 **Empresa parceira**
@@ -391,7 +456,116 @@ Atualmente, muitos pilotos trabalham como "freelancers" e não operam apenas uma
 * Para hospedar a aplicação em um servidor, foi empregada uma instância da AWS, uma das principais provedoras de infraestrutura em nuvem para aplicações online. Utilizando a AWS, foi possível hospedar a aplicação na nuvem, possibilitando o acesso ao sistema através do endereço do servidor AWS. Isso viabilizou o acesso por diversos dispositivos, como smartphones, tablets e outros dispositivos com acesso à internet.
 
 
+## Contribuições pessoais 🎓
 
+ <details>
+ <summary> Definição de rotas </summary>
+ <br>
+
+Essa constante MainRoutes define as principais rotas da nossa aplicação. Vamos dar uma olhada em alguns pontos-chave:
+
+path: Define o caminho da rota, que será acessado na barra de endereço do navegador. Aqui, definimos que nossas rotas principais estarão sob o caminho /main.
+
+meta: { requiresAuth: true }: Esta é uma meta-informação que indica que essas rotas requerem autenticação para serem acessadas. Isso é importante para garantir a segurança da nossa aplicação.
+
+redirect: Redireciona para /main caso o usuário acesse a rota principal.
+
+component: Define o componente Vue que será renderizado quando a rota for acessada. Utilizamos uma função de importação dinâmica (import()) para carregar o componente sob demanda, o que ajuda a melhorar o desempenho da aplicação.
+
+children: Define rotas filhas dentro da rota principal. Cada rota filha segue a mesma estrutura que a rota principal, incluindo o nome, caminho e componente associado.
+
+Essas rotas definem a estrutura da nossa aplicação frontend, permitindo que os usuários naveguem entre diferentes páginas e recursos de forma eficiente.
+
+
+ 
+```python
+const MainRoutes = {
+    path: '/main',
+    meta: {
+        requiresAuth: true
+    },
+    redirect: '/main',
+    component: () => import('@/layouts/full/FullLayout.vue'),
+    children: [
+        {
+            name: 'Dashboard',
+            path: '/',
+            component: () => import('@/views/dashboard/index.vue')
+        },
+        {
+            name: 'Typography',
+            path: '/ui/typography',
+            component: () => import('@/views/components/Typography.vue')
+        },
+        {
+            name: 'Shadow',
+            path: '/ui/shadow',
+            component: () => import('@/views/components/Shadow.vue')
+        },
+        {
+            name: 'Icons',
+            path: '/icons',
+            component: () => import('@/views/pages/Icons.vue')
+        },
+        {
+            name: 'UserTable',
+            path: '/userTable',
+            component: () => import('@/components/user/ConsultaTable.vue')
+        },
+        {
+            name: 'Statistic',
+            path: '/statistic',
+            component: () => import('@/views/pages/Statistics.vue')
+        },
+        {
+            name: 'UserManager',
+            path: '/userManager',
+            component: () => import('@/views/pages/UserManager.vue')
+        },
+        {
+            name: 'EditorTable',
+            path: '/editorTable',
+            component: () => import('@/views/pages/EditorTable.vue')
+        },
+        {
+            name: 'Item',
+            path: '/item/:id',
+            component: () => import('@/views/pages/ItemCraft.vue')
+          },
+          {
+            name: 'Chassi',
+            path: '/chassi/:id',
+            component: () => import('@/views/pages/ChassiProfile.vue')
+          },
+          
+    ]
+};
+
+export default MainRoutes;
+
+```
+ </details>
+
+
+
+ ## Aprendizados efetivos 🎓
+
+ HARD SKILLS
+
+ <details>
+ <summary> Linguagem Python </summary>
+ <br>
+
+</details>
+
+ SOFT SKILLS
+
+ <details>
+ <summary> Comunicação 
+ </summary>
+ <br>
+Com todas as aulas sendo ministradas remotamente, foi necessário aprimorar minha comunicação com os membros do grupo para facilitar a compreensão e colaboração entre todos os membros da equipe.
+</details>
 
 
 
