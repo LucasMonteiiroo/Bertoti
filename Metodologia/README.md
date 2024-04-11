@@ -13,6 +13,7 @@ Aqui, contará com uma descrição sobre os meus projetos semestrais e como atue
 <a href="https://www.linkedin.com/in/lucas-monteiro-56585117b/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 <a href="lucasmonteiror.lm@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 </p>
+
 ## Projeto 1
 
 ## PLIINB
