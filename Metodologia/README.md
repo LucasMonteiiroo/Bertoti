@@ -132,7 +132,7 @@ def eventos(day, service):
  <details>
  <summary> Linguagem Python </summary>
  <br>
-
+Esses trechos de código me permitiram aprofundar meu conhecimento em manipulação de arquivos, datas e interação com APIs externas, particularmente a API do Google Calendar. 
 </details>
 
  SOFT SKILLS
@@ -301,9 +301,9 @@ public class TelaRelatorio {
  HARD SKILLS
 
  <details>
- <summary> Linguagem Python </summary>
+ <summary> Gerenciamento de Conexões </summary>
  <br>
-
+Trabalhando com o código neste projeto, aprendi a estabelecer conexões seguras e eficientes com um banco de dados MySQL em Java. Além disso, dominei técnicas para gerenciar recursos críticos, como statements e result sets, garantindo seu fechamento adequado para evitar vazamentos de memória e maximizar o desempenho do sistema.
 </details>
 
  SOFT SKILLS
