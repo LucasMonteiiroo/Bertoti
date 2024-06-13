@@ -6,7 +6,7 @@ Olá, é um prazer recebe-lo em meu portifólio. Sou o Lucas Rodrigues, graduand
 
 Minha trajetória na área de tecnologia começou com o curso técnico em Desenvolvimento de Sistemas na Etec Machado de Assis, uma instituição pertencente ao renomado grupo do Centro Paula Souza, que também inclui a Fatec. Foi nessa etapa inicial que desenvolvi minha paixão pela tecnologia e obtive os conhecimentos fundamentais que me impulsionariam na carreira.
 
-Durante o curso, uma das matérias que mais me cativou foi a de banco de dados. Desde então, decidi aprofundar meus estudos nessa área e segui esse caminho profissionalmente. Ao concluir o sexto semestre na Fatec, consigo refletir sobre toda a minha evolução, tanto acadêmica quanto profissional.
+Durante o curso, uma das matérias que mais me cativou foi a de banco de dados. Desde então, decidi aprofundar meus estudos nessa área e seguir esse caminho profissionalmente, iniciando então o curos de Banco de Dados. Ao concluir o sexto semestre na Fatec, consigo refletir sobre toda a minha evolução, tanto acadêmica quanto profissional.
 
 Nesses anos de estudo, tive a oportunidade de aplicar meus conhecimentos em diversos projetos, o que me permitiu consolidar e expandir minhas habilidades técnicas (hard skills) e interpessoais (soft skills). Essa experiência prática, aliada ao contínuo desenvolvimento de competências, me preparou para enfrentar os desafios do mercado de trabalho e me proporcionou um sólido crescimento profissional na área de tecnologia.
 
