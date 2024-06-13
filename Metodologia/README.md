@@ -4,6 +4,12 @@
 
 Olá, é um prazer recebe-lo em meu portifólio. Sou o Lucas Rodrigues, graduando em Banco de Dados pela FATEC - Prof. Jessen Vidal.
 
+Minha trajetória na área de tecnologia começou com o curso técnico em Desenvolvimento de Sistemas na Etec Machado de Assis, uma instituição pertencente ao renomado grupo do Centro Paula Souza, que também inclui a Fatec. Foi nessa etapa inicial que desenvolvi minha paixão pela tecnologia e obtive os conhecimentos fundamentais que me impulsionariam na carreira.
+
+Durante o curso, uma das matérias que mais me cativou foi a de banco de dados. Desde então, decidi aprofundar meus estudos nessa área e segui esse caminho profissionalmente. Ao concluir o sexto semestre na Fatec, consigo refletir sobre toda a minha evolução, tanto acadêmica quanto profissional.
+
+Nesses anos de estudo, tive a oportunidade de aplicar meus conhecimentos em diversos projetos, o que me permitiu consolidar e expandir minhas habilidades técnicas (hard skills) e interpessoais (soft skills). Essa experiência prática, aliada ao contínuo desenvolvimento de competências, me preparou para enfrentar os desafios do mercado de trabalho e me proporcionou um sólido crescimento profissional na área de tecnologia.
+
 Aqui, contará com uma descrição sobre os meus projetos semestrais e como atuei em cada um, durante a minha formação. 
 
 <p align="center">
@@ -21,13 +27,6 @@ Aqui, contará com uma descrição sobre os meus projetos semestrais e como atue
 Assistente Pessoal Virtual vinculado à API Google Calendar, no qual o usuário usará comandos de voz para acessar a Agenda Google através da API, executar os comandos de consultar, editar e visualizar compromissos da agenda. Além de consumir API do sexto semestre.
 
 **Lista de comandos possíveis:**
-
--   Consultar agenda;
--   Ler compromissos do dia;
--   Incluir compromisso;
--   Editar compromisso;
--   Excluir compromisso;
--   Fechar agenda.
 
 -   ## Tecnologias utilizadas 🔍
 
@@ -576,7 +575,112 @@ Com todas as aulas sendo ministradas remotamente, foi necessário aprimorar minh
 
 ## Oracle
 
-Desenvolvemos um sistema web para a gestão de um restaurante, que inclui o controle de estoque e fornecedores, além da análise do desempenho dos funcionários e dos pratos oferecidos. A solução foi uma plataforma web dividida em diversas seções, apresentando insights através de gráficos, tabelas e cards. Essas ferramentas facilitam a visualização das informações sobre estoque, vendas, pratos e desempenho dos funcionários para o proprietário do estabelecimento.
+<p align="center">
+<img src="https://github.com/LucasMonteiiroo/Bertoti/blob/main/Metodologia/Logos/Oracle_Logo.jpg" width="200" height="80">
+
+O desafio consistiu em criar uma plataforma online abrangente para a gestão eficiente de um restaurante, contemplando funcionalidades como controle de estoque e fornecedores, análise de desempenho de funcionários e pratos, e a visualização de dados através de gráficos e relatórios. O objetivo principal era auxiliar os proprietários na administração eficaz do restaurante, facilitando a gestão de custos, inventário e pessoal, e fornecendo uma visão clara das operações.
+
+A solução foi desenvolvida como um sistema web, organizado em diversas seções, que realiza a coleta e processamento de dados da base de dados do restaurante. Os resultados são apresentados de maneira intuitiva por meio de gráficos, tabelas e cards, proporcionando insights detalhados sobre estoque, vendas, pratos e desempenho de funcionários. Com isso, a plataforma oferece uma ferramenta poderosa e prática para a tomada de decisões estratégicas pelos gestores do estabelecimento.
+
+
+## Tecnologias utilizadas 🔍
+
+**Java e Spring**
+
+* Para o desenvolvimento do back-end, utilizamos Java em conjunto com o framework Spring para criar uma API com arquitetura REST. Esta API é responsável por gerenciar o mapeamento das rotas e possibilitar a comunicação entre o sistema e o banco de dados. Foram criados endpoints que suportam operações CRUD (Create, Read, Update, Delete) para interagir eficientemente com os dados de pratos, funcionários e estoque, facilitando o consumo dessas informações pelo front-end. Com essa abordagem, garantimos uma estrutura flexível e eficiente para a gestão das operações do restaurante.
+
+**Oracle Autonomous Database**
+
+* O banco de dados foi hospedado na nuvem utilizando o Oracle Autonomous Database, permitindo o acesso aos dados de qualquer lugar com conexão à internet. A escolha desse banco de dados foi influenciada pela segurança oferecida, incluindo acesso restrito através de wallet, o que garantiu maior proteção e confiabilidade das informações armazenadas.
+
+**Vue.js**
+
+* Com o framework Vue.js, conseguimos modularizar os elementos do front-end, permitindo sua reutilização em diferentes partes da aplicação. Isso facilitou significativamente a organização e manutenção do código, além de melhorar a escalabilidade e a legibilidade da interface.
+
+
+## Contribuições pessoais 🎓
+
+ <details>
+ <summary> Definição de rotas </summary>
+ <br>
+
+
+ 
+```python
+const MainRoutes = {
+    path: '/main',
+    meta: {
+        requiresAuth: true
+    },
+    redirect: '/main',
+    component: () => import('@/layouts/full/FullLayout.vue'),
+    children: [
+        {
+            name: 'Dashboard',
+            path: '/',
+            component: () => import('@/views/dashboard/index.vue')
+        },
+        {
+            name: 'Typography',
+            path: '/ui/typography',
+            component: () => import('@/views/components/Typography.vue')
+        },
+        {
+            name: 'Shadow',
+            path: '/ui/shadow',
+            component: () => import('@/views/components/Shadow.vue')
+        },
+        {
+            name: 'Icons',
+            path: '/icons',
+            component: () => import('@/views/pages/Icons.vue')
+        },
+        {
+            name: 'UserTable',
+            path: '/userTable',
+            component: () => import('@/components/user/ConsultaTable.vue')
+        },
+        {
+            name: 'Statistic',
+            path: '/statistic',
+            component: () => import('@/views/pages/Statistics.vue')
+        },
+        {
+            name: 'UserManager',
+            path: '/userManager',
+            component: () => import('@/views/pages/UserManager.vue')
+        },
+        {
+            name: 'EditorTable',
+            path: '/editorTable',
+            component: () => import('@/views/pages/EditorTable.vue')
+        },
+        {
+            name: 'Item',
+            path: '/item/:id',
+            component: () => import('@/views/pages/ItemCraft.vue')
+          },
+          {
+            name: 'Chassi',
+            path: '/chassi/:id',
+            component: () => import('@/views/pages/ChassiProfile.vue')
+          },
+          
+    ]
+};
+
+export default MainRoutes;
+
+```
+ </details>
+
+
+
+
+
+
+
+
 
 
 
