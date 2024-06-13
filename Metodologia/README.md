@@ -570,6 +570,15 @@ Com todas as aulas sendo ministradas remotamente, foi necessário aprimorar minh
 
 
 
+## Projeto 5
+
+**Empresa parceira**
+
+## Oracle
+
+Desenvolvemos um sistema web para a gestão de um restaurante, que inclui o controle de estoque e fornecedores, além da análise do desempenho dos funcionários e dos pratos oferecidos. A solução foi uma plataforma web dividida em diversas seções, apresentando insights através de gráficos, tabelas e cards. Essas ferramentas facilitam a visualização das informações sobre estoque, vendas, pratos e desempenho dos funcionários para o proprietário do estabelecimento.
+
+
 
 
  
