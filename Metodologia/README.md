@@ -675,6 +675,25 @@ export default MainRoutes;
  </details>
 
 
+ ## Aprendizados efetivos 🎓
+
+ HARD SKILLS
+
+ <details>
+ <summary> Linguagem Python </summary>
+ <br>
+
+</details>
+
+ SOFT SKILLS
+
+ <details>
+ <summary> Comunicação 
+ </summary>
+ <br>
+Com todas as aulas sendo ministradas remotamente, foi necessário aprimorar minha comunicação com os membros do grupo para facilitar a compreensão e colaboração entre todos os membros da equipe.
+</details>
+
 
 
 
