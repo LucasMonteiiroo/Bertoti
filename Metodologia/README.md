@@ -33,7 +33,7 @@ Assistente Pessoal Virtual vinculado à API Google Calendar, no qual o usuário 
   **Python 3.6 (com Flask)** 🛠️
 * Ao optar por empregar o Flask no desenvolvimento da interface web da assistente virtual, os usuários serão beneficiados por uma interação intuitiva e acessível. Adicionalmente, o framework proporciona a flexibilidade essencial para ampliar e aprimorar as funcionalidades da assistente ao longo do tempo, adaptando-se às mudanças e requisitos que possam surgir durante a evolução do projeto. Essa abordagem oferece uma base sólida para aperfeiçoar a experiência do usuário e expandir as capacidades da assistente conforme as demandas do contexto.
 
-**Spyder (IDE)** 👾
+**Spyder (IDE)** 
 * O Spyder se destaca como uma ferramenta essencial para a criação da assistente virtual. Como uma IDE dedicada ao Python, oferece um ambiente familiar e intuitivo para os desenvolvedores. Sua interface amigável simplifica o processo de escrita, oferecendo não apenas uma interface amigável, mas também ferramentas poderosas e integradas que facilitam desde a manipulação de dados até a depuração e personalização do código Python.
     
 **Agenda do Google (API Google Calendar)** 💻 
@@ -41,10 +41,10 @@ Assistente Pessoal Virtual vinculado à API Google Calendar, no qual o usuário 
 
 * A assistente pode agendar compromissos, criar lembretes, verificar disponibilidade de horários e até mesmo realizar confirmações ou cancelamentos de eventos na agenda dos usuários. Isso se traduz em uma experiência mais conveniente e personalizada, onde a assistente pode fornecer informações relevantes sobre eventos agendados, lembretes de compromissos, e até mesmo automatizar algumas interações relacionadas à agenda.
     
-**Trello** 📊 
+**Trello** 
 * A utilização do trello serviu para dividir as tarefas em cartões, que podem representar desde funcionalidades específicas da assistente até atividades de desenvolvimento, testes, e revisões
 
- **StackEdit** 📁
+ **StackEdit**
  * A funcionalidade de colaboração em tempo real do StackEdit é valiosa para equipes distribuídas ou que trabalham remotamente. Vários membros podem editar um documento simultaneamente, visualizando as alterações em tempo real, o que facilita a revisão, o compartilhamento de ideias e a tomada de decisões colaborativas.
 
   ## Contribuições pessoais 🎓
@@ -246,7 +246,7 @@ public class ConexaoBD {
 <details>
 <summary> Relatorio </summary>
 <br>
-Esta classe é responsável por criar e exibir uma janela de relatório em nossa aplicação utilizando o framework Swing.
+Esta classe é responsável por criar e exibir uma janela de relatório em nossa aplicação.
 
 A classe possui um método main que inicia a aplicação, criando uma instância da classe TelaRelatorio e tornando a janela visível. Além disso, no método initialize, configuramos a janela com o título "RELATÓRIO", dimensões de 960x720 pixels, cor de fundo branca e a ação de fechamento padrão ao clicar no botão de fechar.
 
@@ -308,10 +308,10 @@ Trabalhando com o código neste projeto, aprendi a estabelecer conexões seguras
  SOFT SKILLS
 
  <details>
- <summary> Comunicação 
+ <summary> Trabalho em Equipe
  </summary>
  <br>
-Com todas as aulas sendo ministradas remotamente, foi necessário aprimorar minha comunicação com os membros do grupo para facilitar a compreensão e colaboração entre todos os membros da equipe.
+Capacidade de colaborar eficazmente com outras pessoas, combinando habilidades e esforços para alcançar objetivos comuns e solucionar problemas coletivamente.
 </details>
 
 ## Projeto 3
@@ -413,10 +413,10 @@ Nesse caso, a cidade em si serve como a estação que desempenha o papel de coor
  SOFT SKILLS
 
  <details>
- <summary> Comunicação 
+ <summary> Ética e Responsabilidade
  </summary>
  <br>
-Com todas as aulas sendo ministradas remotamente, foi necessário aprimorar minha comunicação com os membros do grupo para facilitar a compreensão e colaboração entre todos os membros da equipe.
+no papel de Scrum Master envolvem a atuação com integridade e transparência, assegurando que a equipe siga os princípios ágeis e os padrões éticos, e facilitando um ambiente de trabalho que priorize a honestidade, o respeito e o cumprimento de compromissos.
 </details>
  
  ## Projeto 4
@@ -561,10 +561,10 @@ export default MainRoutes;
  SOFT SKILLS
 
  <details>
- <summary> Comunicação 
+ <summary> Autonomia
  </summary>
  <br>
-Com todas as aulas sendo ministradas remotamente, foi necessário aprimorar minha comunicação com os membros do grupo para facilitar a compreensão e colaboração entre todos os membros da equipe.
+Proatividade em aprender novas tecnologias e metodologias, e auto-gestão de tarefas.
 </details>
 
 
@@ -680,18 +680,18 @@ export default MainRoutes;
  HARD SKILLS
 
  <details>
- <summary> Linguagem Python </summary>
+ <summary> Conhecimento em DevOps</summary>
  <br>
-
+ Integração contínua, entrega contínua e operações automatizadas.
 </details>
 
  SOFT SKILLS
 
  <details>
- <summary> Comunicação 
+ <summary> Criatividade
  </summary>
  <br>
-Com todas as aulas sendo ministradas remotamente, foi necessário aprimorar minha comunicação com os membros do grupo para facilitar a compreensão e colaboração entre todos os membros da equipe.
+A capacidade de gerar ideias inovadoras e soluções únicas, aplicando novas abordagens e perspectivas para resolver problemas de maneira eficaz e original. Brainstorming de novas ideias.
 </details>
 
 
