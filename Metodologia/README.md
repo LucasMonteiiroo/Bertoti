@@ -695,6 +695,17 @@ A capacidade de gerar ideias inovadoras e soluções únicas, aplicando novas ab
 </details>
 
 
+## Projeto 5
+
+**Empresa parceira**
+
+## Imagem
+
+<p align="center">
+<img src="https://github.com/LucasMonteiiroo/Bertoti/blob/main/Metodologia/Logos/Oracle_Logo.jpg" width="200" height="80">
+
+O desafio consistiu em criar uma plataforma que analisa e visualiza os sentimentos dos clientes a partir de avaliações online, utilizando tecnologia de ponta para fornecer insights contextualizados geograficamente.
+
 
 
 
