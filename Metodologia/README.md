@@ -30,13 +30,13 @@ Assistente Pessoal Virtual vinculado à API Google Calendar, no qual o usuário 
 
 -   ## Tecnologias utilizadas 🔍
 
-  **Python 3.6 (com Flask)** 🛠️
+  **Python 3.6 (com Flask)** 
 * Ao optar por empregar o Flask no desenvolvimento da interface web da assistente virtual, os usuários serão beneficiados por uma interação intuitiva e acessível. Adicionalmente, o framework proporciona a flexibilidade essencial para ampliar e aprimorar as funcionalidades da assistente ao longo do tempo, adaptando-se às mudanças e requisitos que possam surgir durante a evolução do projeto. Essa abordagem oferece uma base sólida para aperfeiçoar a experiência do usuário e expandir as capacidades da assistente conforme as demandas do contexto.
 
 **Spyder (IDE)** 
 * O Spyder se destaca como uma ferramenta essencial para a criação da assistente virtual. Como uma IDE dedicada ao Python, oferece um ambiente familiar e intuitivo para os desenvolvedores. Sua interface amigável simplifica o processo de escrita, oferecendo não apenas uma interface amigável, mas também ferramentas poderosas e integradas que facilitam desde a manipulação de dados até a depuração e personalização do código Python.
     
-**Agenda do Google (API Google Calendar)** 💻 
+**Agenda do Google (API Google Calendar)** 
 * A integração da Agenda do Google, por meio da API Google Calendar, desempenha um papel fundamental no projeto da assistente virtual. Essa integração permite que a assistente acesse, gerencie e utilize informações diretamente a partir do Google Calendar.
 
 * A assistente pode agendar compromissos, criar lembretes, verificar disponibilidade de horários e até mesmo realizar confirmações ou cancelamentos de eventos na agenda dos usuários. Isso se traduz em uma experiência mais conveniente e personalizada, onde a assistente pode fornecer informações relevantes sobre eventos agendados, lembretes de compromissos, e até mesmo automatizar algumas interações relacionadas à agenda.
@@ -143,6 +143,7 @@ Esses trechos de código me permitiram aprofundar meu conhecimento em manipulaç
 Com todas as aulas sendo ministradas remotamente, foi necessário aprimorar minha comunicação com os membros do grupo para facilitar a compreensão e colaboração entre todos os membros da equipe.
 </details>
 
+[GitHub](https://github.com/BrunoGDF/PLIINB).
 
 
 ## Projeto 2
@@ -314,6 +315,9 @@ Trabalhando com o código neste projeto, aprendi a estabelecer conexões seguras
 Capacidade de colaborar eficazmente com outras pessoas, combinando habilidades e esforços para alcançar objetivos comuns e solucionar problemas coletivamente.
 </details>
 
+[GitHub](https://github.com/assenvitor/ProjetoTecSUS).
+
+
 ## Projeto 3
 
 **Empresa parceira**
@@ -418,6 +422,9 @@ Nesse caso, a cidade em si serve como a estação que desempenha o papel de coor
  <br>
 no papel de Scrum Master envolvem a atuação com integridade e transparência, assegurando que a equipe siga os princípios ágeis e os padrões éticos, e facilitando um ambiente de trabalho que priorize a honestidade, o respeito e o cumprimento de compromissos.
 </details>
+
+[GitHub](https://github.com/CarcaraTec/IACIT).
+
  
  ## Projeto 4
 
@@ -567,6 +574,7 @@ export default MainRoutes;
 Proatividade em aprender novas tecnologias e metodologias, e auto-gestão de tarefas.
 </details>
 
+[GitHub](https://github.com/CarcaraTec/Embraer).
 
 
 ## Projeto 5
@@ -694,21 +702,366 @@ export default MainRoutes;
 A capacidade de gerar ideias inovadoras e soluções únicas, aplicando novas abordagens e perspectivas para resolver problemas de maneira eficaz e original. Brainstorming de novas ideias.
 </details>
 
+[GitHub](https://github.com/CarcaraTec/Cloud-Kitchen-Oracle).
 
-## Projeto 5
+
+## Projeto 6
 
 **Empresa parceira**
 
 ## Imagem
 
 <p align="center">
-<img src="https://github.com/LucasMonteiiroo/Bertoti/blob/main/Metodologia/Logos/Oracle_Logo.jpg" width="200" height="80">
+<img src="https://github.com/LucasMonteiiroo/Bertoti/blob/main/Metodologia/Logos/imagem.jpg" width="220" height="140">
 
 O desafio consistiu em criar uma plataforma que analisa e visualiza os sentimentos dos clientes a partir de avaliações online, utilizando tecnologia de ponta para fornecer insights contextualizados geograficamente.
 
+Desenvolvemos uma solução com inteligência artificial para analisar sentimentos em avaliações de clientes de hotéis, utilizando um banco de dados não relacional. O software fornece insights através de mapas interativos, gráficos de tendências, cards informativos e um sistema de gerenciamento de acesso integrado.
+
+## Tecnologias Utilizadas 🔍
+
+**Java e Spring Boot**
+
+* A linguagem Java foi escolhida pela sua robustez e capacidade de lidar com grandes volumes de transações. Em conjunto com o framework Spring Boot, que facilita a criação de aplicações Java, foi desenvolvida a camada de segurança da aplicação. O Spring Boot oferece módulos como Spring Security, que garantem autenticação e autorização eficientes e seguras. Ele permite a criação de serviços RESTful seguros, assegurando que os dados sensíveis dos usuários estejam protegidos contra acessos não autorizados.
+
+**Python e Flask**
+
+* Python foi selecionado pela sua simplicidade e eficiência no desenvolvimento rápido de aplicações. Utilizando o framework Flask, conhecido pela sua leveza e flexibilidade, foi desenvolvida a camada web e de API's REST da aplicação. Flask facilita a criação de endpoints RESTful e a integração com outros serviços, possibilitando uma comunicação fluida entre o frontend e o backend. A escolha por Flask também se deve ao seu suporte robusto para bibliotecas de machine learning e análise de dados, que são fundamentais para a parte de IA da solução.
+
+**MongoDB**
+
+* MongoDB, um banco de dados não relacional, foi escolhido para armazenar os dados não estruturados do nosso dataset, como as avaliações dos clientes. Sua arquitetura baseada em documentos permite uma grande flexibilidade no armazenamento e na recuperação de dados complexos e variados, que são comuns em análises de sentimentos. A escalabilidade horizontal do MongoDB garante que o sistema possa crescer de acordo com a demanda, mantendo a performance eficiente.
+
+**MySQL**
+
+* MySQL foi utilizado como o sistema de gerenciamento de banco de dados relacional para armazenar informações estruturadas, como dados de usuários e suas interações com a aplicação. Conhecido por sua confiabilidade e robustez, o MySQL facilita a execução de operações complexas de busca e manipulação de dados, garantindo a integridade e a consistência dos dados armazenados.
+
+**Vue.js**
+
+* Para o frontend, o framework JavaScript Vue.js foi escolhido por sua simplicidade e capacidade de criar interfaces de usuário reativas e dinâmicas. Vue.js facilita a criação de componentes reutilizáveis e a gestão do estado da aplicação, permitindo uma experiência de usuário fluida e interativa. Sua integração com outras tecnologias e ferramentas de desenvolvimento web assegura que a interface da aplicação seja moderna e responsiva, proporcionando uma excelente usabilidade.
+
+
+## Contribuições pessoais 🎓
+
+ <details>
+ <summary> Desenvolvimento do gráfico sobre o a origem das avaliações </summary>
+ <br>
+
+Component
+ 
+```python
+<template>
+    <div class="card flex justify-content-center">
+        <Chart type="doughnut" :data="chartData" :options="chartOptions" class="w-full md:w-30rem" />
+    </div>
+</template>
+
+<script setup lang="ts">
+import { chartData, popularGrafico8 } from "../interfaces/GraphicManagedTypeAvaliation";
+import { onMounted } from "vue";
+
+// Chamando a função popularGrafico8 ao montar o componente com parâmetros vazios
+onMounted(async () => {
+    await popularGrafico8('', '', '');
+});
+</script>
+
+<style scoped>
+.card {
+    padding: 2em;
+    margin-bottom: 2em;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.md\:w-30rem {
+    width: 30rem;
+}
+</style>
+
+
+```
+
+TypeScript
+ 
+```python
+import { ref } from "vue";
+import axios from "axios";
+
+// Referências reativas para os dados e opções do gráfico
+export const chartData = ref<any>(null);
+export const chartOptions = ref<any>(null);
+
+// Função para configurar as opções do gráfico
+const setChartOptions = () => {
+    const documentStyle = getComputedStyle(document.documentElement);
+    const textColor = documentStyle.getPropertyValue('--text-color');
+
+    return {
+        plugins: {
+            legend: {
+                labels: {
+                    color: textColor
+                }
+            }
+        }
+    };
+};
+
+// Função para configurar os dados do gráfico
+const setChartData = (data: any) => {
+    const documentStyle = getComputedStyle(document.body);
+
+    return {
+        labels: ['Mobile', 'Others'],
+        datasets: [
+            {
+                data: [data.mobile, data.others],
+                backgroundColor: [
+                    documentStyle.getPropertyValue('--blue-500'),
+                    documentStyle.getPropertyValue('--gray-500')
+                ],
+                hoverBackgroundColor: [
+                    documentStyle.getPropertyValue('--blue-400'),
+                    documentStyle.getPropertyValue('--gray-400')
+                ]
+            }
+        ]
+    };
+};
+
+// Função para popular o gráfico com dados da API
+export async function popularGrafico8(data_ini: string, data_fin: string, cidade: string) {
+    try {
+        // Fazendo requisição à API com parâmetros vazios permitidos
+        const response = await axios.get(`http://localhost:5000/graficos/mobile`, {
+            params: {
+                data_inicio: data_ini,
+                data_fim: data_fin,
+                cidade: cidade
+            }
+        });
+        // Configurando os dados do gráfico
+        chartData.value = setChartData(response.data);
+        // Configurando as opções do gráfico
+        chartOptions.value = setChartOptions();
+    } catch (error) {
+        console.error('Erro ao fazer requisição:', error);
+    }
+}
+
+export default { chartData, popularGrafico8 };
+
+
+```
+ </details>
+
+ <details>
+ <summary> Desenvolvimento do gráfico sobre a % dos tipos de viajantes </summary>
+ <br>
+
+Component
+ 
+```python
+<template>
+    <div class="card flex justify-content-center">
+        <Chart type="doughnut" :data="chartData" :options="chartOptions" class="w-full md:w-30rem" />
+    </div>
+</template>
+
+<script setup>
+import {chartData, popularGrafico} from "../interfaces/GraphicManaged.ts"
+import { onMounted } from "vue";
 
 
 
+
+
+onMounted(async () => {
+    popularGrafico('','','');
+});
+
+
+
+
+
+// Função para configurar as opções do gráfico
+
+</script>
+
+```
+
+TypeScript
+ 
+```python
+import { ref } from "vue";
+import axios from "axios";
+
+export const chartData = ref();
+const chartOptions = ref();
+
+const setChartOptions = () => {
+    const documentStyle = getComputedStyle(document.documentElement);
+    const textColor = documentStyle.getPropertyValue('--text-color');
+
+    return {
+        plugins: {
+            legend: {
+                labels: {
+                    color: textColor
+                }
+            }
+        }
+    };
+};
+
+const setChartData = (data : any) => {
+    const documentStyle = getComputedStyle(document.body);
+    console.log('Setting chart data with:', data);
+
+    return {
+        labels: ['Business', 'Leisure', 'Others'],
+        datasets: [
+            {
+                data: [data.business, data.leisure, data.outros],
+                backgroundColor: [
+                    documentStyle.getPropertyValue('--orange-500'), 
+                    documentStyle.getPropertyValue('--blue-500'), 
+                    documentStyle.getPropertyValue('--gray-500')
+                ],
+                hoverBackgroundColor: [
+                    documentStyle.getPropertyValue('--orange-400'), 
+                    documentStyle.getPropertyValue('--blue-400'), 
+                    documentStyle.getPropertyValue('--gray-400')
+                ]
+            }
+        ]
+    };
+};
+
+export async function popularGrafico(data_ini : any, data_fin: any,cidade: any){
+    try {
+        const response = await axios.get('http://127.0.0.1:5000/graficos/tipos-viagens?data_inicio='+data_ini+'&data_fim='+data_fin+'&cidade='+cidade);
+        chartData.value = setChartData(response.data);
+        chartOptions.value = setChartOptions();
+    } catch (error) {
+        console.error('Erro ao fazer requisição:', error);
+    }
+}
+
+export default {chartData, popularGrafico};
+
+
+```
+ </details>
+ 
+ <details>
+ <summary> Desenvolvimento da aba menu para comportar os gráficos sobre os viajantes </summary>
+ <br>
+
+Menu
+ 
+```python
+<template>
+  <div class="grid">
+    <div class="col-12">
+      <SearchFilterBar/>
+      <div class="card p-fluid">
+        <h2 style="font-size: 1.5em; margin-bottom: 20px;">Type Traveler Dashboard</h2>
+        
+        <!-- Título do gráfico CharTypeTraveler -->
+        <h3 style="font-size: 1.2em; margin-bottom: 10px;">Comparative Sentiment Analysis by Travel Type (%)</h3>
+        <!-- Gráfico do CharTypeTraveler -->
+        <CharTypeTraveler />
+
+        <!-- Título do gráfico ChartTypeTraveler -->
+        <h3 style="font-size: 1.2em; margin-top: 30px; margin-bottom: 10px;">Comparative Analysis by Travel Type (%)</h3>
+        <!-- Gráfico do ChartTypeTraveler -->
+        <ChartTypeTraveler />
+
+      
+        <!-- Título do gráfico ChartTypeTraveler -->
+        <h3 style="font-size: 1.2em; margin-top: 30px; margin-bottom: 10px;">Comparative Analysis by Type Guest (%)</h3>
+        <!-- Gráfico do ChartTypeTraveler -->
+        <ChartTypesGuests />
+
+        <h3 style="font-size: 1.2em; margin-top: 30px; margin-bottom: 10px;">Analysis of the Origin of Evaluation</h3>
+        <!-- Gráfico do ChartTypeTraveler -->
+        <ChartTypeAvaliation />
+      </div>
+    </div>
+  </div>
+</template>
+
+<script setup>
+import SearchFilterBar from '../../../components/SearchFilterBar.vue';
+import CharTypeTraveler from '@/components/CharTypeTraveler.vue';
+import ChartTypeTraveler from '@/components/ChartTypeTraveler.vue';
+import ChartTypesGuests from '../../../components/ChartTypesGuests.vue';
+import ChartTypeAvaliation from '../../../components/ChartTypeAvaliation.vue';
+</script>
+
+<style scoped>
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.card {
+  padding: 2em;
+  margin-bottom: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+</style>
+
+
+
+```
+
+
+ </details>
+
+ ## Aprendizados efetivos 🎓
+
+ HARD SKILLS
+
+ <details>
+ <summary> Conhecimento em DevOps</summary>
+ <br>
+ Integração contínua, entrega contínua e operações automatizadas.
+</details>
+
+ SOFT SKILLS
+
+ <details>
+ <summary> Criatividade
+ </summary>
+ <br>
+A capacidade de gerar ideias inovadoras e soluções únicas, aplicando novas abordagens e perspectivas para resolver problemas de maneira eficaz e original. Brainstorming de novas ideias.
+</details>
+
+[GitHub](https://github.com/CarcaraTec/Imagem-api6sem).
 
 
 
