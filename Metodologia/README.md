@@ -140,7 +140,7 @@ Esses trechos de código me permitiram aprofundar meu conhecimento em manipulaç
  <summary> Comunicação 
  </summary>
  <br>
-Com todas as aulas sendo ministradas remotamente, foi necessário aprimorar minha comunicação com os membros do grupo para facilitar a compreensão e colaboração entre todos os membros da equipe.
+Foi necessário aprimorar minha comunicação com os membros do grupo para facilitar a compreensão e colaboração entre todos os membros da equipe.
 </details>
 
 [GitHub](https://github.com/BrunoGDF/PLIINB).
