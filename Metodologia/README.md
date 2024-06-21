@@ -997,15 +997,15 @@ h3 {
  HARD SKILLS
 
  <details>
- <summary> Conhecimento em DevOps</summary>
+ <summary> Inteligencia Artificial</summary>
  <br>
- Integração contínua, entrega contínua e operações automatizadas.
+ Conhecer sobre o treinamento de IA trouxe uma amplitude muito boa sobre o assunto. 
 </details>
 
  SOFT SKILLS
 
  <details>
- <summary> Criatividade
+ <summary> Resiliência
  </summary>
  <br>
 A capacidade de gerar ideias inovadoras e soluções únicas, aplicando novas abordagens e perspectivas para resolver problemas de maneira eficaz e original. Brainstorming de novas ideias.
