@@ -1008,7 +1008,7 @@ h3 {
  <summary> Resiliência
  </summary>
  <br>
-A capacidade de gerar ideias inovadoras e soluções únicas, aplicando novas abordagens e perspectivas para resolver problemas de maneira eficaz e original. Brainstorming de novas ideias.
+A resiliência foi crucial no projeto de treinamento de IA para garantir robustez, adaptação contínua e recuperação eficiente diante de dados variáveis e falhas operacionais.
 </details>
 
 [GitHub](https://github.com/CarcaraTec/Imagem-api6sem).
