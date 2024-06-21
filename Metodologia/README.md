@@ -409,8 +409,11 @@ Nesse caso, a cidade em si serve como a estação que desempenha o papel de coor
  HARD SKILLS
 
  <details>
- <summary> Linguagem Python </summary>
+ <summary> Gestão de Projetos </summary>
  <br>
+Planejamento de Sprints: Capacidade de planejar, executar e encerrar sprints de forma eficiente. 
+
+Utilização de ferramentas e métricas para monitorar o progresso do projeto e da equipe.
 
 </details>
 
@@ -560,9 +563,9 @@ export default MainRoutes;
  HARD SKILLS
 
  <details>
- <summary> Linguagem Python </summary>
+ <summary> Java </summary>
  <br>
-
+Importante para desenvolvimento de todo o projeto, pude aprender e aperfeiçoar com os meus colegas
 </details>
 
  SOFT SKILLS
@@ -609,77 +612,24 @@ A solução foi desenvolvida como um sistema web, organizado em diversas seçõe
 ## Contribuições pessoais 🎓
 
  <details>
- <summary> Definição de rotas </summary>
+ <summary> Modelagem do banco de dados </summary>
  <br>
 
+ </details>
 
- 
-```python
-const MainRoutes = {
-    path: '/main',
-    meta: {
-        requiresAuth: true
-    },
-    redirect: '/main',
-    component: () => import('@/layouts/full/FullLayout.vue'),
-    children: [
-        {
-            name: 'Dashboard',
-            path: '/',
-            component: () => import('@/views/dashboard/index.vue')
-        },
-        {
-            name: 'Typography',
-            path: '/ui/typography',
-            component: () => import('@/views/components/Typography.vue')
-        },
-        {
-            name: 'Shadow',
-            path: '/ui/shadow',
-            component: () => import('@/views/components/Shadow.vue')
-        },
-        {
-            name: 'Icons',
-            path: '/icons',
-            component: () => import('@/views/pages/Icons.vue')
-        },
-        {
-            name: 'UserTable',
-            path: '/userTable',
-            component: () => import('@/components/user/ConsultaTable.vue')
-        },
-        {
-            name: 'Statistic',
-            path: '/statistic',
-            component: () => import('@/views/pages/Statistics.vue')
-        },
-        {
-            name: 'UserManager',
-            path: '/userManager',
-            component: () => import('@/views/pages/UserManager.vue')
-        },
-        {
-            name: 'EditorTable',
-            path: '/editorTable',
-            component: () => import('@/views/pages/EditorTable.vue')
-        },
-        {
-            name: 'Item',
-            path: '/item/:id',
-            component: () => import('@/views/pages/ItemCraft.vue')
-          },
-          {
-            name: 'Chassi',
-            path: '/chassi/:id',
-            component: () => import('@/views/pages/ChassiProfile.vue')
-          },
-          
-    ]
-};
+  <details>
+ <summary> Criação de Views  </summary>
+ <br>
+Simplificação de Consultas: Views permitem encapsular consultas SQL complexas em uma estrutura simples e reutilizável. Ao invés de escrever uma consulta longa e complicada toda vez, uma view permite acessar essa lógica complexa de forma direta e simplificada.
 
-export default MainRoutes;
+ </details>
 
-```
+   <details>
+ <summary> Criação de índices  </summary>
+ <br>
+Busca Rápida: Índices permitem que o banco de dados localize rapidamente as linhas desejadas sem precisar escanear a tabela inteira, acelerando significativamente a execução das consultas.
+
+Foram criados diversos indices nas colunas que buscavam datas. 
  </details>
 
 
